@@ -1,6 +1,8 @@
 "use client";
 
 import { SignInPage, Testimonial } from "@/components/ui/sign-in";
+import { authClient } from "@/lib/auth-client";
+import { toast } from "sonner";
 
 const sampleTestimonials: Testimonial[] = [
   {
